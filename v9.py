@@ -150,12 +150,12 @@ def neon_header_pulse():
     neon_print("        " + C["neon_pink"] + C["bold"] + " TELEGRAM AUTOMATION NC " + C["reset"])
     neon_print("        " + C["neon_green"] + "Created by SPYTHER. Version: v9")
     print()
-    neon_print(" created by spyther - Tele - https://t.me/techyspyther", "neon_yellow")
+    neon_print("  Tele - https://t.me/techyspyther", "neon_yellow")
     print()
     neon_print(C["neon_cyan"] + "=" * 52)
 
 def print_menu():
-    neon_print("\n" + C["neon_pink"] + C["bold"] + "        TELEGRAM NC MENU" + C["reset"])
+    neon_print("\n" + C["neon_pink"] + C["bold"] + " TELEGRAM NC MENU" + C["reset"])
     neon_print(C["neon_cyan"] + "=" * 52)
     print()
     print("1. " + C["neon_yellow"] + "Command Mode")
@@ -408,7 +408,7 @@ def main():
             input("Press Enter to continue...")
 
         elif choice == "4":
-            neon_print("Goodbye ✨", "neon_pink")
+            neon_print("Goodbye ✨!! I hope u enjoyed and make sure to join channel.for updates", "neon_pink")
             break
 
         elif choice == "5":
