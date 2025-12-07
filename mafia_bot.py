@@ -192,7 +192,7 @@ async def delay_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     global delay
     if not context.args: return await update.message.reply_text(f"⏱ Current delay: {delay}s")
     try:
-        delay = max(0.5, float(context.args[0]))
+        delay = max(0.1, float(context.args[0]))
         await update.message.reply_text(f"✅ Delay set to {delay}s")
     except: await update.message.reply_text("⚠️ Invalid number.")
 
